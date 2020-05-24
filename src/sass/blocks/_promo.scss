@@ -1,0 +1,40 @@
+.promo {
+    height: 625px;
+    background: url(../../img/main.png) center (center/cover) no-repeat;
+
+    .header {
+        padding-top: 66px;
+        
+        img {
+            margin-left: 50%;
+            transform: translate(-50%);
+        }
+    }
+
+    &__menu {
+        margin-left: 50px;
+        margin-top: 43px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+            color: white;
+            text-transform: uppercase;
+            margin-right: 41px;
+            list-style-type: none;
+            text-decoration: none;
+        }
+    }
+
+    button {
+        margin-top: 84px;
+        margin-left: 50%;
+        transform: translate(-50%);
+        width: 236px;
+        height: 48px;
+        outline: none;
+    }
+
+    
+        
+}

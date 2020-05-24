@@ -1,0 +1,45 @@
+.module {
+    height: 443px;
+    padding: 57px 0 72px 0;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 75px;
+    }
+    &__item {
+        
+        img {
+            width: 182px;
+            height: 140px;
+        }
+    }
+    &__title {
+        margin-top: 42px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgba($color: black, $alpha: 0.7);
+    }
+
+    &__shape {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.164) 0%, rgba(0, 0, 0, 0.082) 23%, rgba(0, 0, 0, 0.027) 100%);
+        width: 182px;
+        height: 2px;
+        margin-top: 22px;
+    }
+
+    &__subtitle {
+        margin-top: 28px;
+        color: rgba($color: black, $alpha: 0.5);
+        margin-bottom: 32px;
+    }
+    a{
+
+        color: #50c3af;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+}

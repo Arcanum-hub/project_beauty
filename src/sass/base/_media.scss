@@ -1,0 +1,17 @@
+
+
+@media only screen and (max-width: 768px) {
+    .feature{
+        &__star {
+            margin-left: 170px;
+        }
+        
+   }
+}
+
+@media (max-width: 425px) {
+    body {
+        width: fit-content;
+        
+    }
+}

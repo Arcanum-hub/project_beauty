@@ -1,0 +1,29 @@
+.feature {
+    padding: 51px 0 74px 0;
+    height: 222px;
+    background-color: #50c3af;
+    &__star{
+        float: left;
+        margin-left: 245px;
+        margin-right: 9px;
+    }
+    &__title {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+    &__shape {
+        background: rgba($color: #ffffff, $alpha: 0.1);
+        width: 250px;
+        height: 2px;
+        margin-top: 22px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    &__items {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 45px;
+    }
+}

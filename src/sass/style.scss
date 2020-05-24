@@ -1,0 +1,49 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/font';
+@import 'libs/animate';
+
+@import 'base/variables';
+
+
+.container {
+    width: 860px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 77px;
+}
+
+h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 44px;
+    
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    background-color: #50c3af;
+    color: white;
+    outline: none;
+}
+
+@import 'blocks/promo';
+@import 'blocks/advantages';
+@import 'blocks/template';
+@import 'blocks/support';
+@import 'blocks/module';
+@import 'blocks/send';
+@import 'blocks/news';
+@import 'blocks/feature';
+@import 'blocks/footer';
+
+@import 'base/media';

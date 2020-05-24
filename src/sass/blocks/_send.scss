@@ -1,0 +1,48 @@
+.send {
+    height: 322px;
+    padding: 62px 0 62px 0;
+    background-color: rgba($color: #9c9999, $alpha: 0.1);
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 65px;
+        padding-right: 40px;
+        
+    }
+    &__item {
+        
+        img {
+            float: left;
+            margin-right: 15px;
+        }
+    }
+    &__title {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgba($color: black, $alpha: 0.7);
+    }
+
+    &__shape {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.164) 0%, rgba(0, 0, 0, 0.082) 23%, rgba(0, 0, 0, 0.027) 100%);
+        width: 256px;
+        height: 2px;
+        margin-top: 22px;
+    }
+
+    &__subtitle {
+        margin-top: 28px;
+        color: rgba($color: black, $alpha: 0.5);
+        max-height: 77px;
+        max-width: 280px;
+        overflow: hidden;
+    }
+
+    button {
+        margin-top: 35px;
+        width: 100px;
+        height: 36px;
+        outline: none;
+    }
+}
